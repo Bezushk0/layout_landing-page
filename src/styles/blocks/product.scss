@@ -1,0 +1,11 @@
+.product {
+  max-width: 280px;
+
+  @include on-tablet {
+    max-width: 392px;
+  }
+
+  &__photo {
+    width: 100%;
+  }
+}
